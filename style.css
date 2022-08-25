@@ -242,3 +242,33 @@ input {
 .social-container a:hover {
     background-color: antiquewhite;
 }
+@media only screen and (max-device-width: 900px) {
+	.container {
+		width: 100%;
+	}
+	.body {
+		background-image: url("https://i.imgur.com/8Z0ZQYF.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+}
+@media only screen and (max-device-width: 700px) {
+	.container {
+		width: 400px;
+	}
+	.body {
+		background-image: url("https://i.imgur.com/8Z0ZQYF.jpg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	.social-container {
+		display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	}
+}
